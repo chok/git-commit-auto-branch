@@ -1,0 +1,2 @@
+Add a global alias:
+  git config --global alias.cbr '!/path/to/git-commit-auto-branch/git-commit-auto-branch.sh'
