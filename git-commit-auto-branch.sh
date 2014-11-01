@@ -1,5 +1,4 @@
 #!/bin/bash
 
-branch=($(git status | grep "On branch" | sed -e 's|# On branch ||'))
-echo $branch
+branch=($(git status | grep "la branche" | sed -e 's|^.*\?branche ||'))
 git commit -a -m "[${branch}]" -e
